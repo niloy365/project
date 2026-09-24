@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Box, Typography, Stack, TextField, Button } from '@mui/material';
 import CustomAppBar from '../components/appBar';
-import AboutUs from '../components/aboutus';
+import AboutUs from '../components/aboutUs';
 
 // VerticalMenu Component
 const VerticalMenu = ({ onMenuItemClick }) => {

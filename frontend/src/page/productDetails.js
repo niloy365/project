@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { Container, CardMedia, Card, Typography, Button } from "@mui/material";
 import productList from "../utils/productList";
 import CustomAppBar from "../components/appBar";
-import AboutUs from "../components/aboutus";
+import AboutUs from "../components/aboutUs";
 
 const Details = ({ product }) => {
   return (

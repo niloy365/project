@@ -9,7 +9,6 @@ import Profile from './page/profile';
 import Category from './page/category';
 import MyShop from './page/myShop';
 import ProductDetails from './page/productDetails';
-import ProductList from './utils/productList';
 import AdminLayout from './admin/AdminLayout';
 import AdminDashboard from './admin/AdminDashboard';
 import AdminProducts from './admin/AdminProducts';
@@ -26,7 +25,6 @@ function App() {
           <Route path="/category" element={<Category />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/myShop" element={<MyShop />} />
-          <Route path="/productList" element={<ProductList />} />
           <Route path="/productDetails/:id" element={<ProductDetails />} />
           <Route path="/admin" element={<AdminRoute><AdminLayout /></AdminRoute>}>
             <Route index element={<AdminDashboard />} />

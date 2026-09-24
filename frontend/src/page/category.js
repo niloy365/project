@@ -3,7 +3,7 @@ import ProductCard from "../components/productCard";
 import ProductList from "../utils/productList";
 import { Grid, imageListClasses} from "@mui/material";
 import CustomAppBar from "../components/appBar";
-import AboutUs from "../components/aboutus";
+import AboutUs from "../components/aboutUs";
 
 
 
